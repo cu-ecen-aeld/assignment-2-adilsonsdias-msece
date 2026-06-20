@@ -1,5 +1,5 @@
-CROSS_COMPILE ?=/msece/tools/toolchain/bin/aarch64-none-linux-gnu-
-
+#CROSS_COMPILE ?=aarch64-none-linux-gnu-
+CROSS_COMPILE ?=
 ifeq ($(CROSS_COMPILE),)
 CC = gcc
 else
